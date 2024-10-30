@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ChristianC Tarea2</title>
+    </head>
+
+    <body style="background-color: antiquewhite;">
+        <center>
+            <header>
+                <h1>ÍNDICE DEL SITIO WEB</h1>
+                <p>Este es el header</p>
+                <hr>
+            </header>
+            
+            <br><br>
+        </center>
+        <p><h2>ESTAS SON LAS PÁGINAS DEL SITIO WEB:</h2></p>
+        <ol>
+            <li><a href="1tamaños.html">Página de tamaños</a></li>
+            <li><a href="2listas.html">Página de listas</a></li>
+            <li><a href="3enlaces.html">Página de enlaces</a></li>
+            <li><a href="4imagenes.html">Página de imágenes</a></li>
+            <li><a href="5secciones.html">Página de secciones</a></li>
+            <li><a href="6tablas.html">Página de tablas</a></li>
+            <li><a href="7videos.html">Página de vídeos</a></li>
+            <li><a href="8formularios.html">Página de formularios</a></li>
+            <li><a href="index.html">Volver al índice</a></li>
+        </ol>
+        <br><br>
+        <h2>LISTA DE ERRORES</h2>
+        <a href="ERRORES.HTML">Página de errores</a>
+        <br><br>
+
+        <mark>Soy un texto marcado</mark> <br><br>
+
+        <table style="background-color: blueviolet;">
+            <tr>
+                <td>
+                    <center>
+                        <embed src="imagenes/Imagenes_jojos/𝐆𝐢𝐨𝐫𝐧𝐨 𝐆𝐢𝐨𝐯𝐚𝐧𝐧𝐚 𝐈𝐜𝐨𝐧.jpg" type="image/jpg" width="300" height="300">
+                    </center>
+                </td>
+
+                <td>
+                    <center>
+                        <audio src="audios/Giorno's Muda Muda (JoJo's Bizarre Adventure Anime) - Sound Effect for editing - Sound Library (youtube).mp3" controls></audio>
+                    </center>
+                </td>
+
+                <td>
+                    <center>
+                        <embed src="video/7 Page Muda - Satô Benkei (1080p, h264, youtube).mp4" width="500" height="300"></embed>
+                    </center>
+                </td>
+            </tr>
+        </table>
+
+            <a href="Jojos.html">
+                <canvas id="myCanvas" width="300" height="140" style="border:1px solid #000000;"></canvas>
+                <script>
+                    const c = document.getElementById("myCanvas");
+                    const ctx = c.getContext("2d");
+                    
+                    // Create gradient
+                    const grad=ctx.createRadialGradient(150,75,15,150,75,100);
+                    grad.addColorStop(0,"lightblue");
+                    grad.addColorStop(1,"darkblue");
+                    
+                    // Fill rectangle with gradient
+                    ctx.fillStyle = grad;
+                    ctx.fillRect(10,10,280,130);
+                </script>
+            </a>
+
+        <nav>
+            <a href="https://jojo.fandom.com/es/wiki/Categor%C3%ADa:Personajes">Personajes Jojo´s</a> |
+            <a href="https://jojo.fandom.com/es/wiki/Lista_de_Stands">Stands de Jojo´s</a>
+        </nav>
+        <br><br>
+        <br> 
+        <footer>Hecho por Christian Carrasco</footer>  
+    </body>
+</html>
