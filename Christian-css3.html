@@ -12,15 +12,78 @@
         #h2 {
             background-color: hsl(120, 80%, 20%);
         }
+        h3 {
+            background-color: hsla(80, 20%, 80%, 50%);
+        }
+        h4 {
+            background-image: linear-gradient(blue,green,yellow,red);
+        }
+        .rborder1 {
+            border-radius: 60px;
+            background: red;
+            padding: 2px; 
+            width: 200px; 
+        }
+        .rborder2 {
+            border-radius: 60px;
+            background: blue;
+            padding: 2px; 
+            width: 200px; 
+        }
+        .table5 {
+            box-shadow: 10px 10px 2px lightgrey;
+        }
+        .tabla1 {
+            background-color: blueviolet;
+            width: 200px;
+            height: 100px;
+            transition: ease-in-out 2s;
+        }
+        .tabla1:hover {
+            background-color: chocolate;
+            width: 500px;
+        }
     </style>
 
 </head>
 <body>
     
-<h2>OPACIDAD O TRANSPARENCIA</h2><br>
+<h2>OPACIDAD O TRANSPARENCIA</h2>
 <h1>CHRISTIAN</h1>
-<h2>TONO,SATURACIÓN Y ILUMNOSIDAD</h2><br>
+<h2>TONO,SATURACIÓN Y ILUMNOSIDAD</h2>
 <h2 id="h2">Carrasco</h2>
+<h3>Abal</h3>
+<h2>GRADIENTES</h2>
+<h4>C/ Parque Alcosa 4, Piso 1, Puerta 8</h4>
+<h2>ESQUINAS REDONDEADAS</h2>
+<p class="rborder1">Christian</p>
+<p class="rborder2">Carrasco Abal</p>
+<table class="table5" border="5"; cellspacing="20">
+    <caption><b>tabla con separacion entre celdas</b></caption>
+    <tr> 
+    <td>fila1-celda1</td>
+    <td>fila1-celda2</td>
+    <td>fila1-celda3</td>
+    </tr>
+    <tr> 
+    <td>fila2-celda1</td>
+    <td>fila2-celda2</td>
+    <td>fila2-celda3</td>
+    </tr>
+</table>
+<table class="tabla1" border="1" ; align = "center">
+    <caption><b>tabla simple</b></caption>
+    <tr class="fila1"> 
+        <td>fila1-celda1</td>
+        <td>fila1-celda2</td>
+        <td>fila1-celda3</td>
+    </tr>
+    <tr class="fila2"> 
+        <td>fila1-celda1</td>
+        <td>fila1-celda2</td>
+        <td>fila1-celda3</td>
+    </tr>
+</table>
 
 </body>
 </html>
