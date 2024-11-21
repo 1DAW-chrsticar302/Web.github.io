@@ -43,6 +43,52 @@
             background-color: chocolate;
             width: 500px;
         }
+        .opacidad {
+            opacity: 0.5;
+            background-color: aqua;
+            width: fit-content;
+        }
+        .columnas {
+            column-count: 3;
+            column-gap: 20px;
+            column-rule-color:antiquewhite;
+            column-rule-style: inset;
+        }
+        .trans {
+            background-color: violet;
+            padding: 10px;
+            border-radius: 50px;
+            rotate: 30deg;
+            width: fit-content;
+        }
+        #cajal   { 
+            float:  none;  background-color:    #5e44dc;  color: #ffffff;  height:  200px;  width:  400px;  
+            box-sizing: 3px;
+        }
+        #caja2  { 
+            background-color:    #942ab4;  color: #ffffff;  height:  100px; width:  200px;
+            box-sizing: 6px;
+        }
+        #caja11   { 
+            float:  none;  background-color:    #5e44dc;  color: #ffffff;  height:  200px;  width:  400px;  
+            animation-duration: 3s;
+            animation-name: amarillo;
+        }
+        #caja22  { 
+            background-color:    #942ab4;  color: #ffffff;  height:  100px; width:  200px 
+            ; animation-name: verde;
+            animation-duration: 3s;
+        }
+        @keyframes amarillo {
+        from {background-color: #5e44dc;}
+        to {background-color: yellow;}
+        }
+        @keyframes verde {
+            from {background-color: #942ab4;}
+            to {background-color: green;}
+        }
+
+ 
     </style>
 
 </head>
@@ -84,6 +130,32 @@
         <td>fila1-celda3</td>
     </tr>
 </table>
+<h2>OPACIDAD</h2>
+<p class="opacidad">Hola</p>
+<h2>COLUMNAS</h2>
+<p class="columnas">Lorem ipsum dolor sit amet consectetur adipiscing elit rhoncus sagittis, integer hendrerit mi eget magnis pretium nascetur nisi enim, accumsan quis maecenas class phasellus lobortis interdum vulputate. Fermentum viverra nulla dis congue nisi nibh aenean convallis id, curabitur vulputate a imperdiet vestibulum nam malesuada lectus montes, tempus donec elementum mollis commodo tempor diam hac. Torquent magnis luctus tincidunt class eu cubilia auctor ullamcorper rhoncus netus, litora sed id nunc potenti molestie ultricies augue eros tellus, fermentum est at donec ligula congue libero faucibus hendrerit.</p>
+<h2>ANIMACIONES</h2>
+<div id="caja11">
+    <p> CAJA1,  tiene propiedad   float puesta  a none,  por lo que aparece  donde  le corresponde  sin  flotar</p>
+     
+    </div>
+    <div id="caja22">
+    <p>Esta  es la CAJA2 , por defecto  aparece  debajo  de la primera  caja. No usa la propiedad  <b>float</b>  </p>
+    </div>
+
+<h2>TAMAÑO DE CAJA</h2>
+
+<div id="cajal">
+    <p>Esta  es la primera  caja <br/>
+    flota a la izquierda  de la segunda  caja </p>
+</div>
+<div id="caja2">
+    <p>Esta  es la caja dos, la caja una <br/>
+    flota a la izquierda  de esta caja</p>
+</div>
+
+<h2>TRANSFORMACIONES</h2>
+<p class="trans">holaaaaaaaa</p>
 
 </body>
 </html>
