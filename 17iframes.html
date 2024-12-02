@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14iframes</title>
+
+    <style>
+
+        body {
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        h1 {
+            font-size: 70px;
+            background-color: black;
+            color: white;
+            transition: ease 2s;
+        }
+        h1:active {
+            background-color: green;
+            font-size: 90px;
+        }
+        .contenedor {
+            width: 90%;
+            height: 300px;
+            margin-left: 5%;
+            margin-top: -40px;
+            padding: 1%;
+        }
+        .apartado {
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: calc(99%/2);
+            height: 100%;
+            float: left;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>SISTEMA SOLAR</h1>
+    <div class="contenedor">
+        <div class="apartado">
+
+            <iframe src="https://www.youtube.com/embed/8dy27u_kX1I"></iframe>
+            <iframe src="https://i.pinimg.com/736x/5a/ca/6d/5aca6d17206af00581744bb05c2e901f.jpg" frameborder="0"></iframe>
+
+        </div>
+        <div class="apartado" style="margin-top: 10px;">
+
+            <iframe src="https://ciencia.nasa.gov/sistema-solar/" frameborder="0"></iframe>
+            <iframe src="https://podcastcdn-16.ivoox.com/audio/5/3/1/4/shcronovisor12llegadaaluna3042017-cadenaser-ivoox18414135.mp3?secure=jM-HVSyeVuMHPEtrHo66QA==,1733172416" frameborder="0"></iframe>
+            
+        </div>
+    </div>
+
+</body>
+</html>
