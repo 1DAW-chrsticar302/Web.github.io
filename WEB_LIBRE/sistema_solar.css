@@ -1,0 +1,122 @@
+
+        .h1 {
+            text-align: center;
+            opacity: 1;
+            font-size: 100px;
+            background-image: url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
+            box-shadow: inset 0 0 0 30px 2px whitesmoke;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        .h1_2 {
+            font-size: 100px;
+            text-decoration: underline;
+            animation: appearH1 ease 2s;
+        }
+        body {
+            background: url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
+            color: #FFFA;
+            margin-top: -70px;
+            overflow: overlay;
+        }
+        body.claro {
+            background-color: white;
+            color: #FFFA;
+            margin-top: -70px;
+            overflow: overlay;
+        }
+        .prebody {
+            background: url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
+        }
+        .nobody {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            border-radius: 30% 30px, 30% 30px;
+            padding-top: 2%;
+        }
+        .hoja {
+            background-color: #544e88;
+            opacity: 0.9;
+            border-radius: 10px 10px 50px 50px;
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-bottom: 70px;
+            margin-top: 30%;
+            box-shadow: 0 0 50px 30px #605EA1,
+                        0 0 50px 30px #ffffff;
+            z-index: 1;
+            padding-bottom: 3%;
+        }
+        .parte1 {
+            margin: 5%;
+            position: relative;
+            font-size: 80px;
+            text-align: center;
+        }
+        .planetas {
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top: 3%;
+            border-radius: 50px 20px;
+            border: 5px solid;
+            padding-top: 10px;
+            padding-left: 20px;
+            background-color: black;
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0 0 30px 0 rgb(255, 255, 255);
+            overflow: hidden;
+            transition: linear 0.5s;
+            height: 70px;
+            font-size: 50px;
+        }
+        .planetas:hover {
+            height: max-content;
+            padding-top: 30px;
+            border-radius: 50px 20px 20px 20px;
+        }
+        #solbox:hover {
+            border-color: orange;
+            box-shadow: 0px 0px 3px 0px #FAB12F, 
+                        0px 0px 26px 0px #FCF596,
+                        0px 0px 39px 0px #FBFBFB;
+                        height: 400px;
+                        padding-top: 30px;
+                        border-radius: 50px 20px 20px 20px;
+        }
+        footer {
+            width: fit-content;
+            bottom: 0;
+            background-color: transparent;
+        }
+        .menu {
+            position: sticky;
+            text-align: center;
+            padding-bottom: 30px;
+            border-radius: 0 0 50% 50%;
+            background-color: rgba(132, 84, 237, 0.565);
+            box-shadow: 0 0 40px 0 rgba(132, 84, 237, 0.7);
+            transition: ease 1s;
+        }
+        .menu:hover {
+            background-color: rgba(154, 114, 241, 0.647);
+            box-shadow: 0 0 40px 0 rgba(132, 84, 237, 0.7),
+                        0 0 60px 0 lightpink,
+                        0 0 80px 0 white;
+        }
+        ::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track{
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-image: url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
+            width: 3px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background:linear-gradient(purple,lightblue,orange); 
+            border-radius: 100px;
+        }
+        i {
+            text-decoration: overline;
+            font-weight: 100    ;
+        }

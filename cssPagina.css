@@ -1,0 +1,83 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+.titulo {
+    background-color: red;
+    border-radius: 30px;
+    width: fit-content;
+    box-shadow: 20px 10px rgba(74, 40, 153, 0.459);
+    text-align: center;
+    padding: 2%;
+    margin-left: 40%;
+}
+.subtitulo {
+    background: linear-gradient(rgb(166, 88, 255),rgb(133, 250, 250),rgb(253, 197, 124));
+    text-align: center;
+    margin-left: 35%;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    width: fit-content;
+    border-radius: 50%;
+    transition: ease background 10s;
+}
+.subtitulo:hover {
+    background: linear-gradient(rgb(253, 197, 124),rgb(166, 88, 255),rgb(133, 250, 250));
+    
+}
+.container {
+    bottom: 0;
+    background-color: aqua;
+    display: flex;
+    padding: 1%;
+    width: 97.2%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+.container > div {
+    margin-left: 10%;
+}
+.menu {
+    width: fit-content;
+}
+.menu > ul {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 5%;
+    font-size: 30px;
+}
+.menu > ul > a > li {
+    display: block;
+    width: max-content;
+    padding: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 2%;
+    border: 7px solid #000000;
+    color: #000000;
+    transition: ease 1s;
+}
+.menu > ul > a > li:hover {
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+}
+.tabla {
+    position: absolute;
+    right: 1%;
+    bottom: 5%;
+    font-size: 25px;
+    background-color: aliceblue;
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+}

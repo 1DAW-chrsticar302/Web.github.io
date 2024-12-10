@@ -1,134 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>ChristianC Tarea2</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final | CCA</title>
 
-        <style>
-            ol{
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: blue;
-                width: max-content;
-                float: left;
-            }
+    <link rel="stylesheet" href="cssPagina.css">
 
-            li{
-                float: left;
-                font-size: 20px;
-                
-            }
+</head>
+<body>
+    
+    <div class="titulo">
+        <h1>TRABAJO FINAL</h1>
+    </div>
 
-            li a{
-                display: block;
-                color: white;
-                text-decoration: none;
-                padding: 30px 4px;
-                text-align: center;
-            }
-            a:hover{
-                background-color: aqua;
-                color: black;
-            }
-        </style>
+    <div class="subtitulo">
+        <h2>HTML y CSS</h2>
+    </div>
 
-    </head>
 
-    <body>
-        <center>
-            <h1>ÍNDICE DEL SITIO WEB</h1>
-            <hr>
-        </center>
-        <center>
-            <ol>
-                <li><a href="1tamaños.html">Tamaños</a></li>
-                <li><a href="2listas.html">Listas</a></li>
-                <li><a href="3enlaces.html">Enlaces</a></li>
-                <li><a href="4imagenes.html">Imágenes</a></li>
-                <li><a href="5secciones.html">Secciones</a></li>
-                <li><a href="6tablas.html">Tablas</a></li>
-                <li><a href="7videos.html">Vídeos</a></li>
-                <li><a href="8formularios.html">Formularios</a></li>
-                <li><a href="indice copy.html">9html5.html</a></li>
-                <li><a href="Tarea3/Tablas.html">Tarea 10</a></li>
-                <li><a href="FUTBOL.html">FÚTBOL</a></li>
-                <li><a href="Christian-css3.html">CSS3</a></li>
-                <li><a href="Tarea 6(formulario)/Formulario.html">CustomForm</a></li>
-                <li><a href="17iframes.html">17iframes</a></li>
-            </ol>
-        </center>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <a href="WEB_LIBRE/SistemaSolar.html"><li>Web Temática</li></a>
+                <a href="EJ_CLASE/indice.html"><li>Ejercicios Clase</li></a>
+            </ul>
+        </div>
         
-        <br>   
-        <center>
-            <canvas id="myCanvas" width="400" height="400" style="border:1px solid grey"></canvas>
-
-            <script>
-                const c = document.getElementById("myCanvas");
-                const ctx = c.getContext("2d");
-                
-                ctx.fillRect(0, 0, 50, 50);
-                ctx.fillRect(100, 0, 50, 50);
-                ctx.fillRect(200, 0, 50, 50);
-                ctx.fillRect(300, 0, 50, 50);
-                ctx.fillRect(400, 0, 50, 50);
-                
-                ctx.fillRect(50, 50, 50, 50);
-                ctx.fillRect(150, 50, 50, 50);
-                ctx.fillRect(250, 50, 50, 50);
-                ctx.fillRect(350, 50, 50, 50);
-                ctx.fillRect(450, 50, 50, 50);
-                
-                ctx.fillRect(0, 100, 50, 50);
-                ctx.fillRect(100, 100, 50, 50);
-                ctx.fillRect(200, 100, 50, 50);
-                ctx.fillRect(300, 100, 50, 50);
-                ctx.fillRect(400, 100, 50, 50);
-                
-                ctx.fillRect(50, 150, 50, 50);
-                ctx.fillRect(150, 150, 50, 50);
-                ctx.fillRect(250, 150, 50, 50);
-                ctx.fillRect(350, 150, 50, 50);
-                ctx.fillRect(450, 150, 50, 50);
-                
-                ctx.fillRect(0, 200, 50, 50);
-                ctx.fillRect(100, 200, 50, 50);
-                ctx.fillRect(200, 200, 50, 50);
-                ctx.fillRect(300, 200, 50, 50);
-                ctx.fillRect(400, 200, 50, 50);
-                
-                ctx.fillRect(50, 250, 50, 50);
-                ctx.fillRect(150, 250, 50, 50);
-                ctx.fillRect(250, 250, 50, 50);
-                ctx.fillRect(350, 250, 50, 50);
-                ctx.fillRect(450, 250, 50, 50);
-                
-                ctx.fillRect(0, 300, 50, 50);
-                ctx.fillRect(100, 300, 50, 50);
-                ctx.fillRect(200, 300, 50, 50);
-                ctx.fillRect(300, 300, 50, 50);
-                ctx.fillRect(400, 300, 50, 50);
-                
-                ctx.fillRect(50, 350, 50, 50);
-                ctx.fillRect(150, 350, 50, 50);
-                ctx.fillRect(250, 350, 50, 50);
-                ctx.fillRect(350, 350, 50, 50);
-                ctx.fillRect(450, 350, 50, 50);
-                </script>
-        
-                <svg height="300" width="500">
-                    <defs>
-                        <linearGradient id="grad1">
-                            <stop offset="0%" stop-color="blue" />
-                            <stop offset="100%" stop-color="red" />
-                        </linearGradient>
-                    </defs>
-                    <ellipse cx="200" cy="70" rx="120" ry="70" fill="url(#grad1)" />
-                    <text fill="#ffffff" font-size="65" font-family="Verdana" x="130" y="86">CCA</text>
-                    </svg>
-                </svg>
-        </center>
-        
-    </body>
+        <div class="tabla">
+            <table border="4">
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Christian Carrasco Abal</td>
+                </tr>
+                <tr>
+                    <td>Módulo:</td>
+                    <td>Lenguajes de Marca</td>
+                </tr>
+                <tr>
+                    <td>IES:</td>
+                    <td>Martínez Montañés</td>
+                </tr>
+                <tr>
+                    <td>Profesor:</td>
+                    <td>Gregorio</td>
+                </tr>
+                <tr>
+                    <td>Curso:</td>
+                    <td>1º Desarrollo Aplicaciones Web (DAW)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
 </html>
