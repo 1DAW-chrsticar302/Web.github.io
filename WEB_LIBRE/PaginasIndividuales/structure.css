@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(13, 13, 34);
+}
+.titulo {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: aliceblue;
+}
+ol{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: chucknorris;
+    width: max-content;
+    float: left;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li{
+    float: left;
+    font-size: 20px;
+    color: tomato;
+}
