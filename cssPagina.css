@@ -69,9 +69,13 @@ body {
     position: absolute;
     right: 1%;
     bottom: 5%;
-    font-size: 25px;
-    background-color: aliceblue;
+    font-size: 15px;
+    background-color: lightgrey;
     text-align: center;
+    transition: ease-in 1s;
+}
+.tabla:hover {
+    font-size: 28px;
 }
 footer {
     position: absolute;
