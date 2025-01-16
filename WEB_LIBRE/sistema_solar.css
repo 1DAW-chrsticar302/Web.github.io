@@ -119,3 +119,24 @@
             text-decoration: overline;
             font-weight: 100    ;
         }
+        td {
+            font-size: 50px;
+            width: calc(100%/8);
+            text-align: center;
+            transition: ease-out 0.5s;
+        }
+        td:hover {
+            background-color: #2b283f;
+            color: white;
+        }
+        table {
+            margin-top: 2%;
+            background-color: #FAB12F;
+            color: black;
+            transition: ease-in-out 0.5s;
+        }
+        table:hover {
+            box-shadow: 0px 0px 3px 0px #FAB12F, 
+                        0px 0px 26px 0px #FCF596,
+                        0px 0px 39px 0px #FBFBFB;
+        }

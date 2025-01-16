@@ -74,4 +74,13 @@ b {
     height: 500px;
     border-radius: 30px;
     box-shadow: 0 0 40px 0 black;
+    animation: appear ease-out 1.5s;
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
