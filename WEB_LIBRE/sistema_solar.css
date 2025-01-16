@@ -57,7 +57,7 @@
         .planetas {
             margin-right: 5%;
             margin-left: 5%;
-            margin-top: 3%;
+            margin-top: -10px;
             border-radius: 50px 20px;
             border: 5px solid;
             padding-top: 10px;
@@ -113,8 +113,7 @@
             width: 3px;
         }
         ::-webkit-scrollbar-thumb{
-            background:linear-gradient(purple,lightblue,orange); 
-            border-radius: 100px;
+            background:transparent
         }
         i {
             text-decoration: overline;
