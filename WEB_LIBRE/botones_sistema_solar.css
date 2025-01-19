@@ -220,3 +220,6 @@ html {
 a {
     text-decoration: none;
 }
+A:visited {
+    color: white;
+}

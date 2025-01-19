@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar | Formulario</title>
+</head>
+<style>
+
+    body {
+        background-image:url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
+    }
+    .contenedor {
+        display: flex;
+    }
+    .fila {
+        width: calc(100%/2);
+        float: left;
+        background-color: #544e88;
+        padding: 1%;
+        margin: 10px;
+        border-radius: 20px;
+        transition: transform ease 1s;
+    }
+    .fila:hover {
+        box-shadow: 0 0 30px 1px black;
+        transform: translate3d(0px , -50px, 100px);
+    }
+    .botones {
+        text-align: center;
+        padding: 2%;
+        margin: 1%;
+        border-radius: 50px;
+    }
+    input:hover {
+        box-shadow: 0 0 20px 5px wheat;
+    }
+    input:active {
+        background-color: greenyellow;
+    }
+    select:hover {
+        box-shadow: 0 0 20px 5px wheat;
+    }
+    
+</style>
+<body>
+    <center><h1 style="color:white"> FORMULARIO</h1></center>
+    <hr>
+    
+    <div class="contenedor">
+        <div class="fila">
+            
+            <div>
+                <hr>
+                <h2> PREGUNTAS FRECUENTES</h2>
+                <hr>
+                <br><br><br><br>
+                
+                <table style="font-size: 40px;">
+                     <tr>
+                        <td>
+                            <label for="pregunta1">¿Qué es lo que más te ha gustado de la página web?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" size="120">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pregunta2">¿Qué cambio harías en la página?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" size="120">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pregunta3">¿Cuál ha sido tu experienca utilizando la página?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" size="120">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="fila">
+
+            <div>
+                <hr>
+                <h2> CUESTIONARIO</h2>
+                <hr>
+                <br>
+                <form action="">
+                    <label for="pla_fav"  style="font-size: 40px;">Indique su cuerpo celeste favorito:</label>
+                <select name="pla_fav" id="pla_fav"  style="font-size: 25px;">
+                    <option value="sol">Sol</option>
+                    <option value="mercurio">Mercurio</option>
+                    <option value="venus">Venus</option>
+                    <option value="tierra">Tierra</option>
+                    <option value="marte">Marte</option>
+                    <option value="jupiter">Júpiter</option>
+                    <option value="saturno">Saturno</option>
+                    <option value="urano">Urano</option>
+                    <option value="neptuno">Neptuno</option>
+                </select>
+
+                <br><br><br>
+                
+                <label for="nivelSat" style="font-size: 40px;">Indique su nivel de satisfacción de la página, siendo 1 horrible y 10 excelente:</label><br>
+                <input type="radio" name="nivelsat" id="nivelSat">1 &ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">2&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">3&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">4&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">5&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">6&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">7&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">8&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">9&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="nivelsat" id="nivelSat">10&ThickSpace;&ThickSpace;&ThickSpace;
+                <br><br><br>
+                <label for="sino" style="font-size: 40px;">¿Volverías a utilizar la página en algún otro momento?</label><br>
+                <input type="radio" name="sino" id="sino">SI &ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="radio" name="sino" id="sino">NO&ThickSpace;&ThickSpace;&ThickSpace;
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="botones">
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Borrar todo">
+    </div>
+
+</body>
+</html>

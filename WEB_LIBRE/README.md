@@ -1,10 +1,10 @@
 # Sistema Solar Meme ☀
 
-Esta es una representación del sistema solar utilizando HTML y CSS. Los planetas están animados para girar alrededor del sol.
+Esta es una representación del sistema solar utilizando HTML y CSS. Los planetas están conectados al índice de la página web temática..
 
 ## Descripción
 
-Este proyecto muestra una simulación simple de un sistema solar con planetas que orbitan alrededor del sol. Utiliza un fondo de espacio y representaciones gráficas de algunos personajes divertidos como planetas.
+Este proyecto muestra una representación simple del sistema solar con información básica de los planetas que orbitan alrededor del sol, este último incluido. Utiliza un fondo de espacio y representaciones gráficas de los planetas junto algún video.
 
 ## Tecnologías
 
@@ -23,6 +23,6 @@ Aquí tienes una vista previa directa de la representación del sistema solar:
 2. Abre el archivo `index.html` en tu navegador web para ver la simulación.
 
 ```bash
-git clone https://github.com/1DAW-josecor475/whiletrue-sistema-solar.git
-cd whiletrue-sistema-solar
-open sistema_solar.html
+git clone https://github.com/1DAW-chrsticar302/Web.github.io.git
+cd Web.github.io
+open SistemaSolar.html

@@ -5,8 +5,6 @@
             font-size: 100px;
             background-image: url('https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg');
             box-shadow: inset 0 0 0 30px 2px whitesmoke;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
         }
         .h1_2 {
             font-size: 100px;
