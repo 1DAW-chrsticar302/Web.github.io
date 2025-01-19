@@ -1,4 +1,4 @@
-# Sistema Solar Meme ☀
+# Sistema Solar ☀
 
 Esta es una representación del sistema solar utilizando HTML y CSS. Los planetas están conectados al índice de la página web temática..
 
